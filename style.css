@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: 0;
 }
+.sign-in{
+  color: #006A50;
+  padding: 5px 20px;
+  opacity: 100%;
+}
 body{
   max-width: 1300px;
   padding: 18px 32px;
@@ -11,4 +16,43 @@ body{
 nav{
 display: flex;
 justify-content: space-between;
+}
+.container{
+  display: flex;
+  background-color: #3C916A;
+  justify-content: space-between;
+  width: 1300px;
+  margin-top: 80px;
+}
+.title{
+  align-items: center;
+  width: 622px;
+  gap: 20px;
+}
+.sub-title{
+  font-size: medium;
+  color: #644c4c;
+  opacity: 100%;
+}
+.btn{
+  background-color: #006A50;
+  color: white;
+}
+/* pillars style */
+.Pillar-container{
+  display: flex;
+  margin-bottom: 20px;
+  width: 1280px;
+}
+.pillar{
+  width: 320px;
+  background-color: #F1F1F3;
+  border: 295px;
+  block-size: auto;
+
+}
+/* vision style */
+.vision-container{
+  display: flex;
+  gap: 40px;
 }
