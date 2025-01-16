@@ -117,5 +117,91 @@ nav p{
 /* vision style */
 .vision-container{
   display: flex;
-  gap: 40px;
+  gap: 20px;
+  justify-content: center;
+  padding-top: 40px;
+}
+.vision-section{
+  margin-top: 80px;
+}
+  .vision-section h2{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Inter", serif;
+    margin-top: 30px 0px;
+    margin-bottom: 12px;
+  }
+
+  .vision-section p{
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-weight: 400;
+   
+  }
+.vision-container .vision{
+    background-color: white;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0px 10px 97px -3px rgba(0,0,0,0.1);
+    text-align: left;
+    padding: 20px;
+    font-family: "Inter", serif;
+}
+.vision-container .clr1{
+    background-color: #91b5e7;
+  }
+.vision-container .clr2{
+    background-color: #D5D6D8;
+  }
+.vision-container .clr3{
+    background-color: #e9d18f;
+  }
+.vision h4{
+    margin-bottom: 4px;
+  }
+
+.vision p{
+    margin-bottom: 12px;
+  }
+
+  .vision button{
+    color: white;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-top: 8px;
+    border: none;
+    font-family: "Inter", serif;
+  }
+
+  .vision .bclr1{
+    background-color: #5997ec; 
+  }
+  .vision .bclr2{
+    background-color: #28e978;
+  }
+  .vision .bclr3{
+    background-color: #ebba35;
+  }
+
+  /* quote-section */
+
+  .quote-section{
+  margin-top: 80px;
+  position: relative;
+}
+
+.quote-section h3{
+  padding: 6px 0px;
+  font-weight: bold;
+}
+.quote-section img{
+  position: absolute;
+  width: 60px;
+  top: -24px;
+}
+.quote-section p{
+  margin-bottom: 4px;
+  font-size: 14px;
+  font-weight: 400;
 }
