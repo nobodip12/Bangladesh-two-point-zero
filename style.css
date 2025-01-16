@@ -43,23 +43,35 @@ nav p{
   align-items: center;
   border-radius: 8px;
 }
+.container h1{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Inter", serif;
+  }
+.container .hero-img img{
+    width: 80%;
+  }
 .title{
   align-items: center;
   width: 622px;
   gap: 20px;
+  margin-left: 120px;
 }
 .sub-title{
-  font-size: medium;
-  opacity: 100%;
-}
-.title .sub-title{
-  font-size: 28px;
-  font-weight: 700;
-
+  font-size: 22px;
+  font-weight: bold;
+  color: #635c5c;
+  font-family: "Inter", serif;
 }
 .btn{
   background-color: #006A50;
   color: white;
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-top: 8px;
+  border: none;
+  font-family: "Inter", serif;
 }
 /* pillars style */
 .Pillar-container{
