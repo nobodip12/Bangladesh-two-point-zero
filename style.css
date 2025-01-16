@@ -73,19 +73,47 @@ nav p{
   border: none;
   font-family: "Inter", serif;
 }
+
 /* pillars style */
+
+.pillar-section{
+    margin-top: 80px;
+}
 .Pillar-container{
   display: flex;
-  margin-bottom: 20px;
-  width: 1280px;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 40px;
 }
-.pillar{
-  width: 320px;
-  background-color: #F1F1F3;
-  border: 295px;
-  block-size: auto;
+.pillar-section h2{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Inter", serif;
+    margin-top: 30px 0px;
+}
+.Pillar-container .pillar{
+    background-color: white;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 97px -3px rgba(0,0,0,0.1);
+    text-align: left;
+    padding: 20px;
+    font-family: "Inter", serif;
+  }
 
-}
+  .pillar img{
+    margin-bottom: 4px;
+  }
+
+  .pillar h4{
+    margin-bottom: 4px;
+  }
+  .pillar p{
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: gray;
+  }
+
 /* vision style */
 .vision-container{
   display: flex;
