@@ -366,3 +366,50 @@ nav p{
   .donate-section .clrAnother{
     background-color: #a9e6c2;
   }
+
+  /* subs-section */
+
+  .subs-section{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #a9e6c2;
+    padding-top: 50px;
+    border-radius: 12px;
+  }
+  .subs-section h2{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Inter", serif;
+    margin-top: 30px 0px;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+  }
+  .subs-section p{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .subs-inp-area{
+    display: flex;
+    width: 70%;
+    padding: 8px;
+    margin-left: 200px;
+  }
+  .subs-inp-area input{
+    width: 60%;
+    border: none;
+    padding: 8px;
+    font-size: 14px;
+  }
+  .subs-button{
+    padding: 12px 18px;
+    background-color: #006A50;
+    color: white;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .subs-section .promise{
+    margin-top: 8px;
+    font-size: 14px;
+  }
