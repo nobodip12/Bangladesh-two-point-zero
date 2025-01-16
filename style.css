@@ -246,3 +246,123 @@ nav p{
     height: 30px;
     font-weight: bold;
   }
+
+  /* recent-section  */
+
+  .recent-section{
+    margin-top: 80px;
+  }
+  .recent-section h2{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Inter", serif;
+    margin-top: 30px 0px;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+  }
+  .recent-section p{
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .recent-card{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 6px;
+   text-align: left;
+  }
+  .recent-card img{
+    border-radius: 15px; 
+  }
+.recent-sub-title{
+    font-weight: bold;
+    margin: 16px 0px;
+    text-transform: capitalize;
+  }
+  .recent-area .date{
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  .recent-area .para{
+    margin-bottom: 4px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .recent-area button{
+    color: white;
+    background-color: #006A50;
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-top: 8px;
+    border: none;
+    font-family: "Inter", serif;
+  }
+  .recent-card .right-area img{
+    margin-bottom: 20px;
+  }
+
+  /* donate-section */
+
+  .donate-section{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .donate-section h2{
+    font-size: 32px;
+    font-weight: bold;
+    font-family: "Inter", serif;
+    margin-top: 30px 0px;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+  }
+  .donate-para{
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .donate-cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  .donate-card{
+    padding: 40px;
+    background-color: white;
+    font-size: 32px;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  .donate-section .amount{
+    width: 80%;
+    margin: 20px 0px;
+  }
+  .amount input{
+    width: 100%;
+    padding: 12px;
+    font-size: 22px;
+    border: none;
+    text-align: center;
+    text-transform: capitalize;
+    opacity: 0.6;
+  }
+  .donate-section button{
+    color: white;
+    background-color: #006A50;
+    padding: 12px 18px;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-top: 8px;
+    border: none;
+    font-family: "Inter", serif;
+  }
+
+  .donate-section .clrAnother{
+    background-color: #a9e6c2;
+  }
