@@ -1,28 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: 0;
 }
 .sign-in{
-  color: #006A50;
-  padding: 5px 20px;
-  opacity: 100%;
+  padding: 4px 24px;
+    background-color: transparent;
+    border: 1px solid #006A50;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    color: green;
 }
 body{
-  max-width: 1300px;
+ width: 90%;
   padding: 18px 32px;
+  margin: 0 auto;
+  font-family: "Inter", serif;
+background-color: rgb(243, 240, 240);
 }
 
 nav{
 display: flex;
 justify-content: space-between;
 }
+nav p{
+  font-size: 50px;
+  font-weight: bold;
+}
 .container{
+  width: 100%;
+  height: 80vh;
   display: flex;
-  background-color: #3C916A;
-  justify-content: space-between;
-  width: 1300px;
+  background-color: #6f8379;
+  justify-content: center;
   margin-top: 80px;
+  align-items: center;
 }
 .title{
   align-items: center;
@@ -31,8 +48,12 @@ justify-content: space-between;
 }
 .sub-title{
   font-size: medium;
-  color: #644c4c;
   opacity: 100%;
+}
+.title .sub-title{
+  font-size: 28px;
+  font-weight: 700;
+
 }
 .btn{
   background-color: #006A50;
